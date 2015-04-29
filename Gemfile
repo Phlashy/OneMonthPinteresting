@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-
+ruby '2.1.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 # Use SCSS for stylesheets
@@ -20,6 +20,8 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem 'devise', '~> 3.4.1'
+#installed on 29 April 2015 while doing Pinteresting project on OneMonth
 
 group :development, :test do
 	# Moved sqlite3 to test and development as heroku was installed
